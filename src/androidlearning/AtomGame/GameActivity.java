@@ -2,6 +2,7 @@ package androidlearning.AtomGame;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -17,10 +18,13 @@ public class GameActivity extends Activity {
 
     public void setGameField() {
         GridView gameField = (GridView) findViewById(R.id.gameField);
+        int x;
+        int y;
+
 
     }
 
-    public void rayReflection() {
+    public void rayReflection(GridView field) {
 
     }
 }

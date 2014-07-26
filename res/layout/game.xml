@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<Button
+        android:id="@+id/leftTopRay"
+        android:layout_width="15"
+        android:layout_height="15"
+        android:text="o"
+        />
+<Button
+        android:id="@+id/rightTopRay"
+        android:layout_width="15"
+        android:layout_height="15"
+        android:text="o"
+        />
+<GridView
+        android:id="@+id/gameField"
+        android:layout_width="match_parent"
+        android:layout_height="">
+        </GridView>
+<Button
+        android:id="@+id/leftBottomRay"
+        android:layout_width="15"
+        android:layout_height="15"
+        android:text="o"
+        />
+<Button
+        android:id="@+id/rightBottomRay"
+        android:layout_width="15"
+        android:layout_height="15"
+        android:text="o"
+        />
+</LinearLayout>

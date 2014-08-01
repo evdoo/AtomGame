@@ -48,7 +48,6 @@ public class GameActivity extends Activity {
                 mapPoint.add(new Point(x, y));
             }
         }
-
         return mapPoint;
     }
 
@@ -129,12 +128,10 @@ public class GameActivity extends Activity {
                 rayStatus = true; //прошел
                 break;
             }
-            showRayReflection(canvas, finishXRay, finishYRay, rayStatus);
-        }
-    }
+            if (rayStatus == true) {
+                int xMark = (int) (canvas.getHeight() / 13 * p.y) + 1;
 
-    public void showRayReflection(Canvas canvas, int x, int y, boolean rayStatus) {}
-        if (rayStatus == true) {
-        int xMark = (int) (canvas.getHeight() / 13 * y) + 1;
+            }
+        }
     }
 }
